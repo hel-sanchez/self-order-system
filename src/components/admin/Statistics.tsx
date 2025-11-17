@@ -42,7 +42,7 @@ export default function StatisticsPage() {
         <div className="text-xs text-gray-500">
           <button
             className="btn btn-sm mb-2 items-center justify-center bg-[#3B82F6] text-white hover:bg-[#0851c7]"
-            onClick={() => router.push("/admin/create")}
+            onClick={() => router.push("/admin/menu/create")}
           >
             {t("stats.createMenu")}
           </button>

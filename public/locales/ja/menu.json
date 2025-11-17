@@ -54,5 +54,6 @@
   "subtotal": "小計",
   "tax": "税（7%）",
   "serviceCharge": "サービス料（10%）",
-  "total": "合計"
+  "total": "合計",
+  "inCart": "カート内"
 }

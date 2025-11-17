@@ -59,14 +59,14 @@ export const HeaderPage = () => {
               className="btn bg-red-500 text-white hover:bg-red-600"
               onClick={handleLogoutClick}
             >
-              {t("logout", "Logout")}
+              {t("logout")}
             </button>
           ) : (
             <button
               className="btn bg-white text-black hover:bg-blue-800 hover:text-white"
               onClick={handleLoginClick}
             >
-              {t("login", "Login")}
+              {t("login")}
             </button>
           )}
 

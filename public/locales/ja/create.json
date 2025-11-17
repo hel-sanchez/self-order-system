@@ -1,0 +1,29 @@
+{
+  "title": "メニュー登録",
+  "success": "メニューが正常に追加されました。",
+
+  "fields": {
+    "nameLabel": "料理名",
+    "namePlaceholder": "例：とんかつ",
+
+    "descriptionLabel": "説明",
+    "descriptionPlaceholder": "例：サクサクに揚げた豚カツ",
+
+    "priceLabel": "価格（¥）",
+    "pricePlaceholder": "例：12.99",
+
+    "imageLabel": "画像",
+    "imageUrlPlaceholder": "画像URLを入力（https://...）",
+    "imageOrUpload": "または画像ファイルをアップロード",
+    "imagePreview": "プレビュー："
+  },
+
+  "actions": {
+    "submit": "メニューを追加"
+  },
+
+  "list": {
+    "title": "登録済みメニュー",
+    "empty": "まだメニューがありません。左側のフォームから追加してください。"
+  }
+}

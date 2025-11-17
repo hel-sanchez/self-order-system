@@ -1,6 +1,7 @@
 {
   "brand": "QuickServe",
   "login": "Login",
+  "logout": "Logout",
   "nav": {
     "home": "Home",
     "menu": "Menu",

@@ -1,0 +1,29 @@
+{
+  "title": "Create Menu Item",
+  "success": "Menu item added successfully!",
+
+  "fields": {
+    "nameLabel": "Food Name",
+    "namePlaceholder": "Ex: Tonkatsu",
+
+    "descriptionLabel": "Description",
+    "descriptionPlaceholder": "Ex: Deep fried pork cutlet",
+
+    "priceLabel": "Price (¥)",
+    "pricePlaceholder": "Ex: 12.99",
+
+    "imageLabel": "Image",
+    "imageUrlPlaceholder": "Paste image URL (https://...)",
+    "imageOrUpload": "or upload a file:",
+    "imagePreview": "Preview:"
+  },
+
+  "actions": {
+    "submit": "Add Menu Item"
+  },
+
+  "list": {
+    "title": "All Menus",
+    "empty": "No menu items yet. Add one on the left!"
+  }
+}

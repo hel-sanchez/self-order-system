@@ -41,7 +41,11 @@ export const MenuItems = () => {
               <div
                 key={item.id}
                 className={`card bg-white shadow-xl w-full hover:scale-95 cursor-pointer transition 
-                  ${quantity > 0 ? "border-2 border-[#3B82F6]" : "border border-transparent"}`}
+                  ${
+                    quantity > 0
+                      ? "border-2 border-[#3B82F6]"
+                      : "border border-transparent"
+                  }`}
                 onClick={() => setSelected(item)}
               >
                 <figure className="h-48 relative">
@@ -53,7 +57,7 @@ export const MenuItems = () => {
 
                   {quantity > 0 && (
                     <div className="absolute top-2 right-2 badge badge-  text-white bg-[#3B82F6] gap-1">
-                      {t("inCart", "In cart")}: {quantity}
+                      {t("inCart")}: {quantity}
                     </div>
                   )}
                 </figure>

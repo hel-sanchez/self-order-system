@@ -53,5 +53,6 @@
   "subtotal": "Subtotal",
   "tax": "Tax (7%)",
   "serviceCharge": "Service Charge (10%)",
-  "total": "Total"
+  "total": "Total",
+  "inCart": "In Cart"
 }
